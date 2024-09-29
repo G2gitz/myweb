@@ -28,7 +28,7 @@ body{
     position: sticky;
     top: 0;
     padding: 10px;
-    height: 5vh;
+    height: 8vh;
 }
 .header span{
     color: white;
@@ -50,7 +50,7 @@ a{
     border-bottom: 1px solid #31EE13;
 }
 
-.header{
+.header{    /* position: sticky; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -71,13 +71,18 @@ a{
 .homediv{
     margin-top: 1rem;
     margin-bottom: 1rem;
-    background-color: blue;
+    background-color: black;
     padding: 0 10px;
     width: 95vw;
-    height: 90vh;
+    height: 86vh;
     border-radius: 16px;   
     background: rgba(0, 0, 0, 0.7);
     color: white;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: conver;
+    opacity: 0.8;
+
 }
 .homediv span{
     /* color:green; */
@@ -88,13 +93,14 @@ a{
     color:green;
     font-size: 250px;
 }
+
 .abdiv{
     margin-top: 1rem;
     margin-bottom: 1rem;
     background-color: red;
     padding: 0 10px;
     width: 95vw;
-    height: 90vh;
+    height: 86vh;
     border-radius: 16px;   
 }
 
@@ -104,7 +110,7 @@ a{
     background-color: green;
     padding: 0 10px;
     width: 95vw;
-    height: 90vh;
+    height: 86vh;
     border-radius: 16px;   
 }
 .prjdiv{
@@ -113,7 +119,7 @@ a{
     background-color: red;
     padding: 0 10px;
     width: 95vw;
-    height: 90vh;
+    height: 86vh;
     border-radius: 16px;   
 }
 .condiv{
@@ -122,6 +128,17 @@ a{
     background-color: yellow;
     padding: 0 10px;
     width: 95vw;
-    height: 90vh;
+    height: 86vh;
     border-radius: 16px;   
+}
+.homediv{
+    display: flex;
+    align-items: center;justify-content: center;
+}
+#detailsbox{
+    border-radius: 10px;
+    border: 1px solid white;
+    height: 75vh;width: 25vw;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
 }
